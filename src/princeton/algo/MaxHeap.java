@@ -17,10 +17,4 @@ public class MaxHeap {
 		data[i]=data[j];
 		data[j]=temp;
 	}
-	
-	
-	
-	
-	
-	
 }
