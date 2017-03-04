@@ -1,6 +1,6 @@
 package princeton.algo;
 
-public class MaxHeap {
+public class MaxHeap implements Heap{
 	private int [] data;
 	private int N;
 	MaxHeap(){
@@ -17,4 +17,29 @@ public class MaxHeap {
 		data[i]=data[j];
 		data[j]=temp;
 	}
+
+	@Override
+	public void sink(int k) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void swim(int k) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean insert(int key) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int deleteTop() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
 }
