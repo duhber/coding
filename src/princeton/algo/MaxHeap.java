@@ -42,9 +42,4 @@ public class MaxHeap implements Heap{
 		return 0;
 	}
 	
-	
-	
-	
-	
-	
 }
